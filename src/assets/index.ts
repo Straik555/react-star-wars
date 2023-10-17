@@ -1,0 +1,6 @@
+export { default as DroidIcon } from './DroidIcon'
+export { default as LightSaberIcon } from './LightSaberIcon'
+export { default as SpaceStationIcon } from './SpaceStationIcon'
+export { default as FavoriteIcon } from './FavoriteIcon'
+export { default as ArrowLeftIcon } from './ArrowLeftIcon'
+export { default as FavoriteIconPerson } from './FavoriteIconPerson'

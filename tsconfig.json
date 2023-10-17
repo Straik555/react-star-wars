@@ -18,9 +18,53 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "paths": {
+      "~": [
+        "src/"
+      ],
+      "~/*": [
+        "src/*"
+      ],
+      "~api/*": [
+        "src/api/*"
+      ],
+      "~store": [
+        "src/store"
+      ],
+      "~navigation/*": [
+        "src/navigation/*"
+      ],
+      "~components": [
+        "src/components"
+      ],
+      "~components/*": [
+        "src/components/*"
+      ],
+      "~pages": [
+        "src/pages"
+      ],
+      "~hooks/*": [
+        "src/hooks/*"
+      ],
+      "~types/*": [
+        "src/@types/*"
+      ],
+      "~utils": [
+        "src/utils"
+      ],
+      "~utils/*": [
+        "src/utils/*"
+      ],
+      "~assets": [
+        "src/assets"
+      ]
+    }
   },
   "include": [
-    "src"
+    "src",
+    "./src/@types/.d.ts"
   ]
 }
